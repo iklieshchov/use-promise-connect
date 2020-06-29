@@ -2,9 +2,11 @@
   "name": "use-promise-connect",
   "version": "1.0.0",
   "description": "Hook to connect promise to React functional component",
-  "main": "index.js",
+  "main": "./lib-esm/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rimraf lib-esm",
+    "build": "tsc",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -13,5 +15,16 @@
     "promise"
   ],
   "author": "Ihor Klieshchov <ihor.klieshchov@gmail.com> (https://box-ik.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/react": "^16.9.41",
+    "jest": "^26.1.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
 }
