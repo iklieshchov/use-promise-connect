@@ -1,0 +1,17 @@
+{
+  "name": "use-promise-connect",
+  "version": "1.0.0",
+  "description": "Hook to connect promise to React functional component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "typescript",
+    "promise"
+  ],
+  "author": "Ihor Klieshchov <ihor.klieshchov@gmail.com> (https://box-ik.com)",
+  "license": "ISC"
+}
