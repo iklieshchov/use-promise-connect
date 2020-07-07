@@ -1,6 +1,6 @@
-<h1 align="center">usePromiseConnect</h1>
+# usePromiseConnect
 
-<p align="center">Connects promise to a component and provide utilities to track its execution.</p>
+Connects promise to a component and provide utilities to track its execution.
 
 ## Table of Contents
 
